@@ -56,7 +56,7 @@ const App = () => {
                     value={tasksTitle}
                     onChange={(event) => setTasksTitle(event.target.value)}
                 />
-                <label>Task name</label>
+                <label>Type your note and press Enter</label>
             </div>
             <List tasks={tasks} />
         </div>
